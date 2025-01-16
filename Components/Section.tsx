@@ -11,7 +11,7 @@ export default function Section() {
         <button className='text-white font-500 font-LibreBodoni text-[30px] bg-[#A29875] rounded-[10px] w-[288px] h-[58px] ml-[6px]'>Explore Now</button>
       </div>
       <div className='mr-[266px]  mt-[64px]'>
-        <Image className='' src={pic.src} alt='pic'/>
+        <Image className='h-auto w-auto' width={200} height={200} src={pic.src} alt='pic'/>
       </div>
     </section>
   )
